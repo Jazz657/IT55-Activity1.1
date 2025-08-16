@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Webpage</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is my first HTML page.">
+  <meta name="keywords" content="HTML, beginner, web development">
+  <meta name="author" content="Jazz Dwight W. Salac">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 20px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    p {
+      line-height: 1.5;
+    }
+    .highlight {
+      background-color: yellow;
+    }
+    table {
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 5px;
+    }
+    form {
+      margin-top: 20px;
+    }
+  </style>
+  <script>
+    function greet() {
+      alert("Hello! Welcome to my page.");
+    }
+  </script>
+</head>
+<body onload="greet()">
+
+  <h1>Welcome to My First Webpage</h1>
+  <p>This is a <b>bold</b> statement, and here is some <i>italic</i> text.</p>
+  <p class="highlight">This paragraph is highlighted using CSS.</p>
+
+  <h2>My Favorite Fruits</h2>
+  <ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>grapes</li>
+
+  </ul>
+
+  <h2>Steps to Make Tea</h2>
+  <ol>
+    <li>Boil water</li>
+    <li>Add tea leaves</li>
+    <li>Pour into a cup</li>
+  </ol>
+
+  <!-- This is a comment: The above lists show unordered and ordered lists -->
+
+  <p>Visit <a href="https://www.example.com" target="_blank">Example Website</a> for more info.</p>
+
+  <h2>My Favorite Song</h2>
+  <audio controls>
+    <source src="Music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>My Favorite Movie Scene</h2>
+  <video width="320" height="240" controls>
+    <source src="iron_man.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <h2>My Favorite Picture</h2>
+  <img src="Family_pic.jpg" alt="A beautiful view" width="300">
+  <div style="border:1px solid #000; padding:10px; margin-top:10px;">
+    <p>This is a block container using <span style="color:red;">div</span> and <span style="font-weight:bold;">span</span> elements.</p>
+  </div>
+
+  <h2>Class Schedule</h2>
+<table border="1" style="width: 75%; margin: left; text-align: left;">
+  <tr>
+    <th>Day</th>
+    <th>Subjects</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>
+      Web Systems and Technologies 1 (10:00 AM – 11:00 AM, CISC Room 2)<br>
+      Environmental Science (12:00 PM – 1:00 PM, CISC Room 2)<br>
+      Computer Programming 3, Lab (1:00 PM – 4:00 PM, CISC Lab 21)<br>
+      Data Structures and Algorithms (4:00 PM – 6:00 PM, CISC Room 3)
+
+    </td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>
+      Science, Technology and Society (7:00 AM – 8:30 AM, Room 1)<br>
+      Fundamentals of Networking (9:00 AM – 10:00 AM, CISC Room 2)<br>
+      Computer Programming, Lab (11:00 AM – 12:00 PM, CISC Lab 22)<br>
+      Computer Architecture (4:00 PM – 6:00 PM, CISC Lab 24)
+    </td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>
+      PATH-Fit 3 (7:00 AM – 9:00 AM, SH 2)<br>
+      Fundamentals of Networking, Lab (1:00 PM – 4:00 PM, CISC Lab 11)<br>
+      Computer Architecture, Lab (4:00 PM – 7:00 PM, CISC Lab 22)<br>
+      Web Systems and Technologies 1 (10:00 AM – 11:00 AM, CISC Room 2)<br>
+      Environmental Science (12:00 PM – 1:00 PM, CISC Room 2)
+
+    </td>
+  </tr>
+   <tr>
+    <td>Thursday</td>
+    <td>
+      Science, Technology and Society (7:00 AM – 8:30 AM, Room 1)<br>
+      Fundamentals of Networking (9:00 AM – 10:00 AM, CISC Room 2)<br>
+      Web Systems and Technologies 1, Lab (1:00 PM – 4:00 PM, CISC Lab 26)<br>
+   </td>
+    <tr>
+     <td>Friday</td>
+     <td>
+      Data Structures and Algorithms, Lab (7:00 AM – 10:00 AM, CISC Lab 23<br>
+      Computer Programming (10:00 AM – 11:00 AM, CISC Room TBD)<br>
+      Environmental Science (12:00 PM – 1:00 PM, CISC Room 2)<br>
+    </td>
+    </td>
+  </tr>
+  
+  
+
+  
+
+</table>
+
+
+  <h2>Contact Me</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Send">
+  </form>
+
+</body>
+</html>
