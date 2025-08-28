@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Webpage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is my first HTML page.">
+  <meta name="keywords" content="HTML, beginner, web development">
+  <meta name="Author" content="Jazz Dwight W. Salac">
+  <style>
+    body {
+  background-image: url("PIC.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-color: white;
+	 
+  border: 5px solid;
+  font-family: Arial, sans-serif;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+h1 {
+  border: 5px solid;
+  color: #de34eb;
+   border-radius: 10px;
+   font-color: white;
+}
+
+h2 {
+   border-radius: 10px;
+  border: 2px solid;
+font-color: white;
+}
+
+p {
+  border-radius: 5px;
+  line-height: 1.5;
+font-color: white;
+}
+
+.highlight {
+  background-color: #a38ab8;
+}
+
+table {
+  background-color: white;
+border-collapse: separate; 
+  border-spacing: 10px; 
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+  width: 75%;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 10px; 
+  text-align: center;
+  border-radius: 5px;
+}
+
+form {
+  margin-top: 20px;
+}
+  </style>
+  <script>
+    function greet() {
+      alert("Hello! Welcome to my page.");
+    }
+  </script>
+</head>
+<body onload="greet()">
+
+  <h1>Welcome to My First Webpage</h1>
+  <p>Hi! Im Jazz Dwight the this is my sample website:)</p>
+  <p class="highlight">PASAR UNTA KO</p>
+
+<main>
+ <section>
+  <h2 style= "text-align: center;">My Favorite Fruits</h2>
+  <div style="text-align: center;">
+  <ul style="display: inline-block; text-align: left; list-style-position: inside; padding: 0;">
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Grapes</li>
+  </ul>
+</div>
+
+
+  <h2 style= "text-align: center;">Steps to Make Tea</h2>
+
+ <div style="text-align: center;">
+  <ol style="display: inline-block; text-align: left; list-style-position: inside; padding: 0;">
+    <li>Boil water</li>
+    <li>Add tea leaves</li>
+    <li>Pour into a cup</li>
+  </ol>
+ </div>
+ <section>
+</main>
+
+  <!-- This is a comment: The above lists show unordered and ordered lists -->
+
+  <p style= "text-align: center;">Visit <a href="https://www.example.com" target="_blank">Example Website</a> for more info.</p>
+
+  <h2 style= "text-align: center;">My Favorite Song</h2>
+  <audio controls style ="display: block; margin: auto;" >
+    <source  src="Music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2 style= "text-align: center;">My Favorite Movie Scene</h2>
+  <video style ="display: block; margin: auto;"width="320" height="240" controls>
+    <source src="SIR.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <h2 style= "text-align: center;">My Favorite picture</h2>  
+  <img  style = "display: block; margin: auto;" src="Family_pic.jpg" alt="Family is love" width="900">
+  <div style="border:1px solid #000; padding:10px; margin-top:10px;">
+    <p style= "text-align: center;"> <span style="color:#6e2069; font-family: 'Times New Roman', serif; font-size: 50px; ">"Live The Moment, See the future"</span>.</p>
+  </div>
+
+  <h2 style="text-align: center;">Class Schedule</h2>
+<table  border="1" style="width: 75%; margin: left; text-align: center;margin: auto; border: 1px solid black; width: 75%;">
+  <tr>
+    <th>Day</th>
+    <th>Subjects</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>
+      Web Systems and Technologies 1 (10:00 AM – 11:00 AM, CISC Room 2)<br>
+      Environmental Science (12:00 PM – 1:00 PM, CISC Room 2)<br>
+      Computer Programming 3, Lab (1:00 PM – 4:00 PM, CISC Lab 21)<br>
+      Data Structures and Algorithms (4:00 PM – 6:00 PM, CISC Room 3)
+
+    </td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>
+      Science, Technology and Society (7:00 AM – 8:30 AM, Room 1)<br>
+      Fundamentals of Networking (9:00 AM – 10:00 AM, CISC Room 2)<br>
+      Computer Programming, Lab (11:00 AM – 12:00 PM, CISC Lab 22)<br>
+      Computer Architecture (4:00 PM – 6:00 PM, CISC Lab 24)
+    </td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>
+      PATH-Fit 3 (7:00 AM – 9:00 AM, SH 2)<br>
+      Fundamentals of Networking, Lab (1:00 PM – 4:00 PM, CISC Lab 11)<br>
+      Computer Architecture, Lab (4:00 PM – 7:00 PM, CISC Lab 22)<br>
+      Web Systems and Technologies 1 (10:00 AM – 11:00 AM, CISC Room 2)<br>
+      Environmental Science (12:00 PM – 1:00 PM, CISC Room 2)
+
+    </td>
+  </tr>
+   <tr>
+    <td>Thursday</td>
+    <td>
+      Science, Technology and Society (7:00 AM – 8:30 AM, Room 1)<br>
+      Fundamentals of Networking (9:00 AM – 10:00 AM, CISC Room 2)<br>
+      Web Systems and Technologies 1, Lab (1:00 PM – 4:00 PM, CISC Lab 26)<br>
+   </td>
+    <tr>
+     <td>Friday</td>
+     <td>
+      Data Structures and Algorithms, Lab (7:00 AM – 10:00 AM, CISC Lab 23<br>
+      Computer Programming (10:00 AM – 11:00 AM, CISC Room TBD)<br>
+      Environmental Science (12:00 PM – 1:00 PM, CISC Room 2)<br>
+    </tr>
+    </td>
+  </tr>
+  
+  
+
+  
+
+</table>
+
+  <h2>Contact Me</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Send">
+  </form>
+
+</body>
+</html>
